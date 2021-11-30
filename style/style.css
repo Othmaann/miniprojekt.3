@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font: 1rem "Times New Roman", Times, serif;
+    box-sizing:border-box;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+}
+
+body {
+    background: deepskyblue;
+}
+
+header nav button, header nav form input, header nav form select {
+    background-color: transparent;
+    border: 3px solid purple;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    margin: 0 0.3rem 0 0.3rem;
+    text-align: center;
+}
+
+header nav form .size {
+    color: black;
+    background: rebeccapurple;
+}
+
+header nav form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rebeccapurple;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    margin: 0 0.3rem 0 0.3rem;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template: auto auto auto/ auto;
+    height: 10rem;
+}
+
+main figure {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Slideshow */
+
+main figure img {
+    display: none;
+}
